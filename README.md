@@ -1,5 +1,3 @@
-Viewed basic-10-unit-state-consistency.html:1-376
-
 針對 **`basic-10-unit-state-consistency` (非同步下的狀態一致性：解決通訊謊言)** 單元，這是學員建立「工業級強壯通訊」的分水嶺。它要求學員具備 **分散式系統 (Distributed Systems)** 的意識，學習如何在無線環境不穩定的情況下，透過「版本序號 (Sequence)」、「應答確認 (ACK)」以及「真值來源 (SSoT)」架構，確保網頁面板顯示的狀態與機器人物理現況達成 100% 同步。
 
 以下是在 **GitHub Classroom** 部署其作業 (Assignments) 的具體建議：
