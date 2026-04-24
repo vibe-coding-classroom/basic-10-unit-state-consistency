@@ -19,12 +19,15 @@ jobs:
           python-version: '3.x'
 
       - name: Run Grading Script
+        uses: education/autograding-command-grader@v1
         id: grading
-        run: python3 tests/grading.py
+        with:
+          test-name: Consistency Logic Check
+          command: python3 tests/grading.py
+          timeout: 10
+          max-score: 100
 
       - name: Autograding Reporter
         uses: education/autograding-grading-reporter@v1
-        env:
-          GRADING_RESULTS: ${{ steps.grading.outputs.result }}
         with:
           runners: grading
