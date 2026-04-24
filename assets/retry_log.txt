@@ -1,0 +1,7 @@
+[2024-04-24 10:00:01] INFO: Starting Stress Test...
+[2024-04-24 10:00:05] WARN: Packet Seq 45 dropped (Simulated)
+[2024-04-24 10:00:06] INFO: Received Packet Seq 46. UI Updated.
+[2024-04-24 10:00:10] SEND: Command 'set_auto' ID: 123
+[2024-04-24 10:00:11] ERROR: Command 123 Timeout (1000ms).
+[2024-04-24 10:00:11] RETRY: Command 'set_auto' ID: 123 (Attempt 2)
+[2024-04-24 10:00:11] RECV: ACK ID: 123. Success.
